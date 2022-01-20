@@ -1,5 +1,5 @@
 {% set name = "openff-recharge" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openforcefield/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 73d251e215b469b1caf0ac1f6f5fd33929816c86c646dcd0b0ba63d51410358c
+  sha256: 7322f689baa4ad949b6e7b45751be8d5345b45e641af7cb609e0233c14f12d67
 
 build:
   noarch: python
