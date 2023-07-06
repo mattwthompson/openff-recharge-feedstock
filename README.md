@@ -1,11 +1,11 @@
-About openff-recharge
-=====================
+About openff-recharge-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openff-recharge-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/openforcefield/openff-recharge
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openff-recharge-feedstock/blob/main/LICENSE.txt)
 
 Summary: A framework for generating partial charges for molecules from QC data.
 
