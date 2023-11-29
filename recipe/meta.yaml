@@ -34,6 +34,8 @@ requirements:
 test:
   imports:
     - openff.recharge
+  commands:
+    - openff-recharge --help
 
 about:
   home: https://github.com/openforcefield/openff-recharge
