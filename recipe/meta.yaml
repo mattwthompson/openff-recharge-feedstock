@@ -1,5 +1,5 @@
 {% set name = "openff-recharge" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openforcefield/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 35c1e2ffd9d7dd3f43c1a15ba3bd26a36c82971286be5d3cc5c4d0a7fc57dcf6
+  sha256: 82bd48c02cd9e9681a99085f8e34a9d71fbac02320df531bb6d38ca3d2ff0033
 
 build:
   noarch: python
@@ -25,8 +25,11 @@ requirements:
     - click
     - tqdm
     - jinja2
-    - openff-toolkit-base >=0.11.0
-    - openff-interchange-base
+    - pydantic
+    - openff-toolkit-base >=0.14.0
+    - openff-interchange-base >=0.3.18
+    - openff-utilities
+    - openff-units >=0.2    
     - sqlalchemy
     - sqlite
     - rdkit  
