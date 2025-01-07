@@ -18,10 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - click
     - tqdm
     - jinja2
@@ -35,6 +36,8 @@ requirements:
     - rdkit  
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - openff.recharge
   commands:
